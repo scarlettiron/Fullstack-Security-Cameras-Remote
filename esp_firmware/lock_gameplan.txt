@@ -1,0 +1,14 @@
+
+1) define and set pins for controlling motor
+2)boolean variable that keeps track of lock status
+
+3) reusable function that loops through provided dictionary and returns 
+    a json object in the correct socket format
+
+4) reusable functions for locking and unlocking deadbolt
+
+5) handle cases for socket messages
+
+6) keep track of errors and send them to remote server api
+
+7)double check that websocket will reconnect if booted off

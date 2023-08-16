@@ -1,0 +1,10 @@
+// tomorrow //
+rewrite alerts to support new message formating and sending
+
+add capabilities for error logging to write to a file
+
+//Cam Streams
+move cam processes
+global list of processes
+when cam sends initial information to homeserver via sockets,
+start process for reading camera Streams

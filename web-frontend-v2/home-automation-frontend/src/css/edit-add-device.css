@@ -1,0 +1,22 @@
+@import '../App.css';
+
+.add-device-container{
+    width:100%;
+    max-width: 500px;
+    border-radius: 20px;
+    border:solid 2px var(--secondary);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:10px;
+    margin-top: 30px;
+}
+
+.code-container{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    padding:10px;
+    border-top: solid 1px var(--secondary);
+    margin-top:20px;
+}

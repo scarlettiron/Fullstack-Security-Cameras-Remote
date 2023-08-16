@@ -1,0 +1,6 @@
+@import '../App.css';
+
+.input-primary{
+    background-color: var(--tertiary);
+    border-radius: 20px;
+}

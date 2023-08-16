@@ -1,0 +1,64 @@
+@import '../App.css';
+
+
+
+.side-nav-container{
+    position:absolute;
+    background-color: transparent;
+}
+
+.side-nav-wrapper{
+    padding:40px;
+}
+
+
+.nav-btn{
+    border:none;
+    outline:none;
+    text-decoration: none;
+    background-color: var(--secondary);
+    color:white;
+    border-radius:18px;
+    margin:10px;
+    padding:10px;
+}
+.nav-btn:focus{
+    border: 4px solid var(--secondary);
+}
+
+.nav-btn:hover{
+    flex-grow: 3;
+}
+
+.toggle-btn{
+    margin-left: 10px;
+}
+ 
+.toggle-btn-active{
+    margin-left:40px;
+}
+
+.desktop{
+    display:none;
+}
+
+.mobile{
+    display:none;
+}
+.mobile.active{
+    display:block
+}
+
+@media (min-width:850px){
+    .mobile{
+        display: none;
+    }
+
+    .desktop{
+        display: block;
+    }
+
+    .toggle-btn{
+        display: none;
+    }
+}

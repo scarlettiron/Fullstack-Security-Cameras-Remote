@@ -1,0 +1,13 @@
+@import '../App.css';
+
+.error-container{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    background-color: var(--secondary);
+}
+
+.success-container{
+    display: flex;
+    justify-content: center;
+}

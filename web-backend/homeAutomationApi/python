@@ -1,0 +1,14 @@
+Performing system checks...
+
+System check identified no issues (0 silenced).
+August 10, 2022 - 21:42:07
+Django version 3.2.13, using settings 'homeAutomationApi.settings'
+Starting ASGI/Channels version 3.0.5 development server at http://192.168.2.7:8000/
+Quit the server with CTRL-BREAK.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+August 10, 2022 - 23:23:17
+Django version 3.2.13, using settings 'homeAutomationApi.settings'
+Starting ASGI/Channels version 3.0.5 development server at http://192.168.2.7:8000/
+Quit the server with CTRL-BREAK.

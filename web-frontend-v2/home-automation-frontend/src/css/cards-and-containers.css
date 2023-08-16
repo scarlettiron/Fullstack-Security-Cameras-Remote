@@ -1,0 +1,37 @@
+@import '../App.css';
+
+.main-card{
+    width: 95%;
+    border-radius:15px;
+    border: solid 1px var(--secondary);
+    padding-right: 0px;
+    padding-left: 0px;
+    margin:0 auto;
+
+}
+
+.main-card-dropdown{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width:100%;
+    border-top:solid 2px var(--secondary);
+}
+
+.alert-card{
+    width:95%;
+    border-radius:15px;
+    border: solid 1px var(--secondary);
+    margin:0 auto;
+}
+
+
+@media (min-width:501px){
+    .main-card{
+        max-width:500px;
+    }
+
+    .alert-card{
+        max-width:500px;
+    }
+}

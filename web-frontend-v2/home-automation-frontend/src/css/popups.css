@@ -1,0 +1,21 @@
+@import '../App.css';
+
+.popup-container{
+    position:absolute;
+    width:100vw;
+    min-height:100vh;
+    background-color: var(--primary1);
+    border-radius: 20px;
+    border:solid 2px var(--secondary);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:10px;
+}
+
+@media (min-width:501px){
+    .popup-container{
+        width:450px;
+        min-height:500px;
+    }
+}

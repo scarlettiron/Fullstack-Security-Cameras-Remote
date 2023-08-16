@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+websockets = "*"
+opencv-python = "*"
+matplotlib = "*"
+dlib = "*"
+face-recognition = "*"
+opencv-contrib-python = "*"
+requests = "*"
+python-decouple = "*"
+pendulum = "*"
+nest-asyncio = "*"
+boto3 = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"

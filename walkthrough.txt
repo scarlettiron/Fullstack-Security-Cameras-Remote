@@ -1,0 +1,39 @@
+/// for rewriting the way camera's are checked in and viewed
+
+
+////  cams ////
+    //on boot//
+    have cams connect to websocket homeserver
+    send socket message containing unit id and stream url   
+
+    //remote streaming //
+        /v2 (future rewrite) for sending stream directly from camera/
+    when stream request is sent from remote server, relay from homeserver to camera
+    set remote viewing to true on both cam and homeserver
+    from cam:
+        when remote viewing is set to true
+        during frame reading (below psuedocode):
+        encode frame with base64, send from cam to homeserver via socket
+        relay from homeserver to remote server via remote socket
+        continue frame reading
+
+        on signal to close stream (see part of Closing remote viewing failsafe below):
+            set remote viewing to false
+        
+        continue
+
+
+    Closing remote viewing failsafe:
+        django channels on socket disconnect:
+            if user disconnects without closing the stream,
+            send socket message to homeserver to close all streams
+            relay socket messages from homeserver to all units
+
+
+
+    //Object recognition and face detection//
+
+    
+
+
+    

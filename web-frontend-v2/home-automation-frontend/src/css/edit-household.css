@@ -1,0 +1,19 @@
+@import '../App.css';
+
+
+
+.allowed-person-container{
+    border-top:solid 1px var(--secondary);
+    width:100%;
+}
+
+.allowed-person-image-conatiner{
+    width:100%;
+}
+
+.allowed-person-image{
+    width:100%;
+    height:auto;
+    position: center;
+}
+

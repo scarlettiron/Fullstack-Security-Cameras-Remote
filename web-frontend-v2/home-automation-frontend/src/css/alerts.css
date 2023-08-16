@@ -1,0 +1,15 @@
+@import '../App.css';
+
+
+.alert-image-container{
+    display: flex;
+    justify-content: center;
+    width:100%;
+}
+
+.alert-image{
+    width:100%;
+    height:auto;
+    max-width: 500px;
+    position: center;
+}
